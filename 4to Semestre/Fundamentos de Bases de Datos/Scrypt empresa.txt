@@ -1,0 +1,22 @@
+create schema empresa;
+use schema empresa;
+
+create table centros(
+numce int primary key,
+nomce varchar(25) not null,
+dirce varchar(25)
+--primary key (numce,nomce)
+);
+
+drop table centros;
+create table deparatamento(
+numde int primary key,
+numce int,
+direc int,
+tidir varchar(15),
+presu decimal(3,1),
+depde int,
+nomde varchar(20)
+foreign key (numcentro) references centros (numce),
+constrain FK_recursiva foreign key (depde) references departamentos(numde)
+);
