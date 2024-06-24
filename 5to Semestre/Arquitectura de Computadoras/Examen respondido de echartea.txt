@@ -1,0 +1,14 @@
+Mencione 2 modelos de Arquitectura de computadoras y describalos
+	Von Neumann:
+		Esta arquitectura asume que todo cálculo extrae los datos de la
+		memoria, los procesa y luego los envía de regreso a la memoria.
+		En una arquitectura Von Neumann se utiliza la misma memoria y el		mismo bus para almacenar tanto los datos como las instrucciones			que ejecutan un programa.
+		El fundamento principal del modelo de Von Neumann es el pensamiento		que el programa esté guardado internamente en una máquina. En la		unidad de memoria se encuentran los datos y también el código del		programa. El diseño de la arquitectura consiste en:
+			El principio relevante de la arquitectura de Von Neumann es 			que en la memoria se almacenan tanto los datos como las	
+			instrucciones y se tratan de igual manera, lo que significa			que las instrucciones y los datos son direccionales.
+	Harvard:
+		Se trata de almacenar los datos separados fisicamente,
+		proporcionando diferentes rutas de señal para las instrucciones
+		y los datos.
+		Este modelo se caracteriza en que los buses de información y el
+		almacenamiento se encuentra
